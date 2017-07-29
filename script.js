@@ -1,10 +1,3 @@
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-
-});
-
-
-
 var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider

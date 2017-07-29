@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<body>
 
+<body ng-app="myApp">
 
+<div ng-init="myPic = 'cat.png'">
+<h1>Angular</h1>
+<img ng-src="{{myPic}}">
+</div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
